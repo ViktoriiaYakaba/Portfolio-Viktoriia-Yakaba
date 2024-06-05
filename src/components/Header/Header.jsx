@@ -1,7 +1,8 @@
 import { useState, useContext} from 'react';
 import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
 import { RiMoonClearLine } from 'react-icons/ri';
-import { Headers, Nav, NavLogo, NavLogoCircle, NavLogoName} from './Header.styled';
+import { Headers, Nav, NavLogo, NavLogoCircle, NavLogoName } from './Header.styled';
+import { ThemeContext } from '../utils/theme';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
